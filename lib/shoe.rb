@@ -6,13 +6,8 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    
-    brand.each do |brand|
-      brand !== brand
     BRANDS << brand
   end
-  end
-end
 
   def cobble
     self.condition = "new"
