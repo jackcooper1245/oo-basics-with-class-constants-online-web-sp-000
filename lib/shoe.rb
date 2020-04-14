@@ -6,7 +6,11 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
+    
+    brand.each do |brand|
+      brand !== brand
     BRANDS << brand
+  end
   end
 
   def cobble
